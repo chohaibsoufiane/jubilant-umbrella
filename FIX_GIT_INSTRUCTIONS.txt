@@ -1,0 +1,27 @@
+🚩 ÉTAPES POUR RÉPARER VOTRE GIT ET GITHUB 🚩
+
+Suivez ces étapes dans l'ordre pour que GitHub ne montre QUE votre présentation et pas tout votre bureau :
+
+1. ANNULER LE COMMIT EN COURS :
+Fermez simplement la fenêtre de texte qui affiche vos fichiers du bureau sans l'enregistrer.
+
+2. NETTOYER LE BUREAU (Optionnel mais recommandé) :
+Si vous ne saviez pas que votre Bureau était un dépôt Git géant, supprimez-le en tapant ceci dans le terminal :
+rm -rf ~/Desktop/.git
+
+3. CONFIGURER VOTRE IDENTITÉ (Si ce n'est pas déjà fait) :
+Tapez ces deux lignes en remplaçant par vos infos :
+git config --global user.name "VOTRE NOM"
+git config --global user.email "VOTRE_EMAIL@EXEMPLE.COM"
+
+4. SE DÉPLACER DANS LE BON DOSSIER :
+cd ~/Desktop/presentation_ppt_html
+
+5. ENVOYER SUR GITHUB :
+Tapez ces commandes l'une après l'autre :
+git add .
+git commit -m "Mise à jour de la présentation"
+git push origin main
+
+---
+Toutes ces étapes garantissent que GitHub ne recevra QUE les fichiers à l'intérieur de 'presentation_ppt_html'.
