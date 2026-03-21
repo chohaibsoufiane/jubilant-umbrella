@@ -172,21 +172,21 @@ h3 {
     position: absolute !important;
     z-index: 0 !important;
     pointer-events: none !important;
-    opacity: 0.03; /* Slightly raised for visibility */
+    opacity: 0.1; /* High presence while remaining background level */
     color: var(--color-dark);
     will-change: transform, opacity;
 }
 
 .bg-dark .bg-motif, .bg-accent .bg-motif {
     color: var(--color-bg);
-    opacity: 0.05;
+    opacity: 0.16; /* Substantially present for contrast on dark sections */
 }
 
 .bg-motif svg {
-    width: 60vw;
-    height: 60vw;
-    max-width: 650px;
-    max-height: 650px;
+    width: 70vw;
+    height: 70vw;
+    max-width: 850px;
+    max-height: 850px;
 }
 
 /* Strict Edge Anchoring Classes */
