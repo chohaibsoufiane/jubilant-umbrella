@@ -1,0 +1,9 @@
+.DS_Store
+*.zip
+*.png
+*.jpg
+*.mp4
+!media/
+media/video_animation.mp4
+media/.DS_Store
+*.log

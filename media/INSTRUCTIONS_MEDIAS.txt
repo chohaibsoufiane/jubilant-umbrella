@@ -1,0 +1,17 @@
+Remplacer les fichiers absents par vos propres images et vidéos dans ce dossier avec EXACTEMENT les mêmes noms.
+
+Voici les mots-clés suggérés pour rechercher et trouver les bonnes images/vidéos sur internet :
+
+IMAGES :
+- image_impression.jpg -> Mots-clés : imprimerie industrielle, presse graphique, industrie de l'impression, rouleaux encreurs, CMJN.
+- image_emballages.jpg -> Mots-clés : packaging design, boîtes en carton imprimées, emballages produits, étiquettes commerciales.
+- image_machine_offset.jpg -> Mots-clés : presse offset, Heidelberg, machine d'imprimerie papier, presse industrielle, rotative.
+- image_schema_offset.jpg -> Mots-clés : schéma principe offset, diagramme offset cylindre plaque blanchet, transfert d'encre impression indirecte.
+- image_plaque_souple.jpg -> Mots-clés : plaque flexographique, polymère en relief, cliché flexo, plaque d'impression souple.
+- image_machine_flexo.jpg -> Mots-clés : presse flexographie, impression bobine, machine packaging, rotative flexo industrielle.
+- image_cylindre_anilox.jpg -> Mots-clés : anilox roller, cylindre alvéolé, rouleau gravé flexo, transfert d'encre flexographie.
+
+VIDÉOS (Format paysage de préférence, sauf la dernière) :
+- video_offset.mp4 -> Mots-clés : offset printing process video, presse offset en mouvement, papier machine imprimerie.
+- video_flexographie.mp4 -> Mots-clés : flexographic printing running, rotative emballage vidéo, impression plastique direct.
+- video_animation.mp4 -> Mots-clés : confused character animation, personnage 3D qui se pose des questions, vertical loop animation, fond questionnement (Format recommandé : 9:16 vertical).
