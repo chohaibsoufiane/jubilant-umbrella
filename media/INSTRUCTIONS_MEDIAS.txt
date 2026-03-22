@@ -1,19 +1,19 @@
 Remplacer les fichiers absents par vos propres images et vidéos dans ce dossier avec EXACTEMENT les mêmes noms.
 
-Voici les réglages de tailles et les mots-clés recommandés :
+Voici les réglages de tailles et les PROMPTS (descriptions visuelles) pour chaque fichier :
 
 IMAGES :
-- image_impression.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : imprimerie industrielle, presse graphique.
-- image_emballages.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : packaging design, boîtes carton imprimées.
-- image_machine_offset.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : presse offset, Heidelberg.
-- image_schema_offset.jpg -> Taille : 1920 x 1080 (Paysage 16:9). Mots-clés : schéma principe offset, diagramme.
-- image_plaque_souple.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : plaque flexographique, polymère relief.
-- image_machine_flexo.jpg -> Taille : 1200 x 1200 (Carré 1:1). Mots-clés : presse flexographie, impression bobine.
-- image_cylindre_anilox.jpg -> Taille : 1200 x 1200 (Carré 1:1). Mots-clés : anilox roller, cylindre alvéolé.
+- image_impression.jpg -> Taille : 9:16. Prompt : Gros plan photographique professionnel d'une presse à imprimer industrielle avec des rouleaux brillants, profondeur de champ, haute qualité.
+- image_emballages.jpg -> Taille : 9:16. Prompt : Composition minimaliste de boîtes en carton et emballages modernes sur fond neutre, éclairage de studio, propre et élégant.
+- image_machine_offset.jpg -> Taille : 9:16. Prompt : Vue large d'une immense machine d'imprimerie Offset multi-unités (style Heidelberg) dans un atelier propre et lumineux, look technologique.
+- image_schema_offset.jpg -> Taille : 16:9. Prompt : Diagramme technique épuré montrant le transfert d'encre entre trois cylindres (Plaque, Blanchet, Support), style infographie moderne et plat.
+- image_plaque_souple.jpg -> Taille : 9:16. Prompt : Macro-photographie d'une plaque flexo souple en relief, montrant la texture du polymère rose/orange et les motifs de gravure.
+- image_machine_flexo.jpg -> Taille : 1:1. Prompt : Presse flexographique rotative à grande vitesse, montrant de grands cylindres et une bobine de film plastique en cours d'impression.
+- image_cylindre_anilox.jpg -> Taille : 1:1. Prompt : Macro extrême d'un cylindre Anilox, montrant les cellules microscopiques gravées dans le métal, reflet métallique précis.
 
 VIDÉOS :
-- video_offset.mp4 -> Format : Paysage 16:9 (HD). Mots-clés : offset printing process video, presse en mouvement.
-- video_flexographie.mp4 -> Format : Paysage 16:9 (HD). Mots-clés : flexographic printing running, rotative emballage.
-- video_animation.mp4 -> Format : Vertical 9:16 (Crucial). Mots-clés : personnage 3D confus, vertical loop animation.
+- video_offset.mp4 -> 16:9. Prompt : Vidéo fluide de feuilles de papier passant à toute vitesse dans une machine Offset, focus sur le mouvement mécanique.
+- video_flexographie.mp4 -> 16:9. Prompt : Séquence rapide montrant une rotative flexo imprimant sur un support souple en continu, atmosphère industrielle puissante.
+- video_animation.mp4 -> 9:16. Prompt : Animation 3D d'un personnage stylisé et minimaliste qui se gratte la tête, l'air confus, avec des points d'interrogation flottants. Fond neutre.
 
-(Note : Le design utilise 'object-fit: cover', donc vos images rempliront toujours l'espace sans se déformer, même si les dimensions ne sont pas exactes).
+(Note : Le design utilise 'object-fit: cover', donc vos images rempliront toujours l'espace sans se déformer).
