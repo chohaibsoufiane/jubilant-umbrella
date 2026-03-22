@@ -1,17 +1,19 @@
 Remplacer les fichiers absents par vos propres images et vidéos dans ce dossier avec EXACTEMENT les mêmes noms.
 
-Voici les mots-clés suggérés pour rechercher et trouver les bonnes images/vidéos sur internet :
+Voici les réglages de tailles et les mots-clés recommandés :
 
 IMAGES :
-- image_impression.jpg -> Mots-clés : imprimerie industrielle, presse graphique, industrie de l'impression, rouleaux encreurs, CMJN.
-- image_emballages.jpg -> Mots-clés : packaging design, boîtes en carton imprimées, emballages produits, étiquettes commerciales.
-- image_machine_offset.jpg -> Mots-clés : presse offset, Heidelberg, machine d'imprimerie papier, presse industrielle, rotative.
-- image_schema_offset.jpg -> Mots-clés : schéma principe offset, diagramme offset cylindre plaque blanchet, transfert d'encre impression indirecte.
-- image_plaque_souple.jpg -> Mots-clés : plaque flexographique, polymère en relief, cliché flexo, plaque d'impression souple.
-- image_machine_flexo.jpg -> Mots-clés : presse flexographie, impression bobine, machine packaging, rotative flexo industrielle.
-- image_cylindre_anilox.jpg -> Mots-clés : anilox roller, cylindre alvéolé, rouleau gravé flexo, transfert d'encre flexographie.
+- image_impression.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : imprimerie industrielle, presse graphique.
+- image_emballages.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : packaging design, boîtes carton imprimées.
+- image_machine_offset.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : presse offset, Heidelberg.
+- image_schema_offset.jpg -> Taille : 1920 x 1080 (Paysage 16:9). Mots-clés : schéma principe offset, diagramme.
+- image_plaque_souple.jpg -> Taille : 1080 x 1920 (Vertical 9:16). Mots-clés : plaque flexographique, polymère relief.
+- image_machine_flexo.jpg -> Taille : 1200 x 1200 (Carré 1:1). Mots-clés : presse flexographie, impression bobine.
+- image_cylindre_anilox.jpg -> Taille : 1200 x 1200 (Carré 1:1). Mots-clés : anilox roller, cylindre alvéolé.
 
-VIDÉOS (Format paysage de préférence, sauf la dernière) :
-- video_offset.mp4 -> Mots-clés : offset printing process video, presse offset en mouvement, papier machine imprimerie.
-- video_flexographie.mp4 -> Mots-clés : flexographic printing running, rotative emballage vidéo, impression plastique direct.
-- video_animation.mp4 -> Mots-clés : confused character animation, personnage 3D qui se pose des questions, vertical loop animation, fond questionnement (Format recommandé : 9:16 vertical).
+VIDÉOS :
+- video_offset.mp4 -> Format : Paysage 16:9 (HD). Mots-clés : offset printing process video, presse en mouvement.
+- video_flexographie.mp4 -> Format : Paysage 16:9 (HD). Mots-clés : flexographic printing running, rotative emballage.
+- video_animation.mp4 -> Format : Vertical 9:16 (Crucial). Mots-clés : personnage 3D confus, vertical loop animation.
+
+(Note : Le design utilise 'object-fit: cover', donc vos images rempliront toujours l'espace sans se déformer, même si les dimensions ne sont pas exactes).
