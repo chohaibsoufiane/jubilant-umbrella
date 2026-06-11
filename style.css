@@ -50,6 +50,7 @@ body {
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    -webkit-app-region: drag;
 }
 
 /* Base Typography */
@@ -1436,4 +1437,63 @@ h3 {
     opacity: 0;
     transition: transform 0.6s var(--ease-scene), opacity 0.4s ease;
     transition-delay: 0s;
+}
+
+/* Electron Window Drag/Interactive Zones */
+button,
+a,
+input,
+video,
+.start-prompt-track,
+.presentation-nav,
+.counter-track,
+.slide-content,
+.col,
+.quad-item,
+.comparison-table,
+.video-container {
+    -webkit-app-region: no-drag;
+}
+
+/* Custom Electron Window Controls */
+.electron-window-controls {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 10000;
+    display: flex;
+    gap: 8px;
+    -webkit-app-region: no-drag;
+}
+
+.electron-btn {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all var(--t-micro) var(--ease-overshoot);
+    border-radius: 4px;
+    mix-blend-mode: difference;
+}
+
+.electron-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+.electron-btn:hover {
+    background: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+}
+
+.electron-btn:active {
+    transform: translateY(0);
 }

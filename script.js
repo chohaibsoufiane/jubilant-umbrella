@@ -292,6 +292,11 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
             e.preventDefault();
             prevSlide();
+        } else if (e.key === 'F11') {
+            e.preventDefault();
+            if (window.electronAPI) {
+                window.electronAPI.toggleFullScreen();
+            }
         }
     });
 
@@ -412,4 +417,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Wake up on first load
     wakeUpNav();
+
+    // === ELECTRON WINDOW CONTROL EVENTS ===
+    const minBtn = document.getElementById('electron-min');
+    const maxBtn = document.getElementById('electron-max');
+    const closeBtnWin = document.getElementById('electron-close');
+
+    if (window.electronAPI) {
+        if (minBtn) minBtn.addEventListener('click', () => window.electronAPI.minimize());
+        if (maxBtn) maxBtn.addEventListener('click', () => window.electronAPI.maximize());
+        if (closeBtnWin) closeBtnWin.addEventListener('click', () => window.electronAPI.close());
+    } else {
+        const controls = document.querySelector('.electron-window-controls');
+        if (controls) controls.style.display = 'none';
+    }
 });

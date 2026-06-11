@@ -1,0 +1,12 @@
+{
+  "name": "cinematic-printing-presentation",
+  "version": "1.0.0",
+  "description": "An interactive, cinematically-designed presentation on industrial printing processes.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}
